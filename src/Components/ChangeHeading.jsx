@@ -6,7 +6,7 @@ const ChangeHeading = () => {
         setHeading('Now learning ReactJS')
     }
   return (
-    <div>
+    <div style={{textAlign:'center', height:'100px',backgroundColor:'lavender'}}>
       <h1>{heading}</h1>
       <button onClick={handleChangeHeading}>Change Heading</button>
     </div>
