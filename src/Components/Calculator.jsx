@@ -23,7 +23,8 @@ const Calculator = () => {
         }
     }
   return (
-    <div>
+    <div style={{textAlign:'center', height:'150px',backgroundColor:'palevioletred'}}>
+        <h2 style={{textAlign:'center'}}>Calculator</h2>
         <input type="number" onChange={(e)=>setN1(e.target.value)}/>
         <input type="number" onChange={(e)=>setN2(e.target.value)}/>
         <div>{result}</div>
