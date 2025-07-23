@@ -1,0 +1,14 @@
+.greenFont{
+    color: green;
+}
+.redFont{
+    color: red;
+}
+.purpleBlock{
+    background-color: pink;
+    color: rgb(164, 164, 233);
+}
+.whiteBlock{
+    background-color: rgb(164, 164, 233);
+    color: white;
+}
